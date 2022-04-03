@@ -1,0 +1,34 @@
+body {
+    font-family: "Monda";
+	background-color: #D4E6F1;
+}
+
+section {
+  
+	 text-align: center; 
+}
+
+.game--container { /* class für das Spiel-Gitter*/
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 65px auto;
+}
+
+.cell { /* class für die einzelnen cells */
+    font-family: "Permanent Marker";
+    width: 100px;
+    height: 100px;
+    border: 3px solid #196F3D;
+	box-shadow: 0 0 0 1px #196F3D;
+    cursor: pointer;
+	background-color: white;
+    line-height: 100px;
+    font-size: 75px;
+	
+}
+
+.winningcell { /* class für den Hintergrund der Gewinn-cells */
+	background-color: #A9CCE3;
+ 
+}
